@@ -6,10 +6,10 @@
         private Random random = new Random();
         public Archer()
         {
-            this.Health = random.Next(1, 100);
-            this.Damage = random.Next(1, 100);
-            this.Speed = random.Next(1, 100);
-            this.CanHeal = true;
+            this.Health = random.Next(50, 60);
+            this.Damage = random.Next(60, 70);
+            this.Speed = random.Next(40, 50);
+            this.CanHeal = false;
         }
     }
 }
